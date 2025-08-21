@@ -26,7 +26,7 @@ Siga os passos abaixo para ter o projeto rodando em seu ambiente local.
 
 1. Clone o Repositório
 
-# Clone este repositório (substitua pela URL do seu repositório Git, se tiver uma)
+# Clone este repositório 
 git clone https://github.com/LailaValenca/CRUD-de-Produtos.git
 
 # Navegue para a pasta do projeto
