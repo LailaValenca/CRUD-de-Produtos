@@ -2,6 +2,7 @@ CRUD de Produtos em Laravel
 Bem-vindo ao projeto CRUD de Produtos! Esta é uma aplicação simples construída com o framework Laravel, ideal para demonstrar as operações básicas de um CRUD (Create, Read, Update, Delete) de forma prática e organizada.
 
 ✨ Funcionalidades
+
 ✅ Criar novos produtos (com nome, preço e descrição).
 
 ✅ Listar todos os produtos cadastrados em uma tabela.
