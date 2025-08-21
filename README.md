@@ -17,9 +17,9 @@ Bem-vindo ao projeto CRUD de Produtos! Esta é uma aplicação simples construí
 📋 Pré-requisitos
 Antes de começar, certifique-se de que você tem as seguintes ferramentas instaladas em sua máquina:
 
-PHP (versão >= 8.1)
+- PHP (versão >= 8.1)
 
-Composer
+- Composer
 
 🚀 Instalação e Configuração
 Siga os passos abaixo para ter o projeto rodando em seu ambiente local.
@@ -27,47 +27,47 @@ Siga os passos abaixo para ter o projeto rodando em seu ambiente local.
 1. Clone o Repositório
 
 # Clone este repositório 
-git clone https://github.com/LailaValenca/CRUD-de-Produtos.git
+- git clone https://github.com/LailaValenca/CRUD-de-Produtos.git
 
 # Navegue para a pasta do projeto
-cd crud-produtos
+- cd crud-produtos
 
 2. Instale as Dependências do PHP
 
 O Composer irá baixar e instalar todas as bibliotecas necessárias para o projeto, incluindo o próprio Laravel.
 
-composer install
+- composer install
 
 3. Crie o Arquivo de Ambiente (.env)
 
 Copie o arquivo de exemplo .env.example para criar seu próprio arquivo de configuração local.
 
 # No Windows (CMD ou PowerShell)
-copy .env.example .env
+- copy .env.example .env
 
 # No Linux ou macOS
-cp .env.example .env
+- cp .env.example .env
 
 4. Gere a Chave da Aplicação
 
 Esta chave é essencial para a segurança da sua aplicação (criptografia, sessões, etc.).
 
-php artisan key:generate
+- php artisan key:generate
 
 5. Configure o Banco de Dados (SQLite)
 
 Este projeto foi configurado para usar o SQLite para simplificar a instalação.
 
-Crie o arquivo do banco de dados:
+- Crie o arquivo do banco de dados:
 Na pasta database/, crie um arquivo vazio chamado database.sqlite.
 
 # No PowerShell
-New-Item -Path "database/database.sqlite" -ItemType File
+- New-Item -Path "database/database.sqlite" -ItemType File
 
 # No Linux/macOS ou Git Bash no Windows
-touch database/database.sqlite
+- touch database/database.sqlite
 
-Edite o arquivo .env:
+- Edite o arquivo .env:
 Abra o arquivo .env e configure as variáveis de banco de dados para usar o SQLite com o caminho absoluto para o arquivo que você acabou de criar. Lembre-se de usar aspas se o caminho contiver espaços e usar barras normais (/) para compatibilidade.
 
 DB_CONNECTION=sqlite
@@ -79,7 +79,7 @@ Substitua C:/caminho/completo/para/seu/projeto/ pelo caminho real no seu computa
 
 Este comando irá criar todas as tabelas necessárias no seu banco de dados, incluindo a tabela products.
 
-php artisan migrate
+- php artisan migrate
 
 🤔 Solução de Problemas Comuns
 Se encontrar algum erro durante a instalação ou execução, verifique os pontos abaixo:
